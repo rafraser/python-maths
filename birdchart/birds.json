@@ -3,12 +3,192 @@
         {
             "name": "flamingo",
             "spooky": 1,
+            "color": "#e74c93"
+        },
+        
+        {
+            "name": "penguin",
+            "spooky": 2,
+            "color": "#00a8ff"
+        },
+        
+        {
+            "name": "ostrich",
+            "spooky": 3,
+            "color": "#e74c93"
+        },
+        
+        {
+            "name": "kiwi",
+            "spooky": 4,
+            "color": "#27a360"
+        },
+        
+        {
+            "name": "peacock",
+            "spooky": 8,
+            "color": "#27a360"
+        },
+        
+        {
+            "name": "ibis",
+            "spooky": 10,
+            "color": "#c8d6e5"
+        },
+        
+        {
+            "name": "kookaburra",
+            "spooky": 11,
+            "color": "#00a8ff"
+        },
+        
+        {
+            "name": "toucan",
+            "spooky": 12,
+            "color": "#e5691d"
+        },
+        
+        {
+            "name": "hummingbird",
+            "spooky": 13,
+            "color": "#27a360"
+        },
+        
+        {
+            "name": "turkey",
+            "spooky": 15,
+            "color": "#e5691d"
+        },
+        
+        {
+            "name": "emu",
+            "spooky": 16,
             "color": "#ff9ff3"
         },
         
         {
+            "name": "sparrow",
+            "spooky": 18,
+            "color": "#db091f"
+        },
+        
+        {
+            "name": "parrot",
+            "spooky": 20,
+            "color": "#db091f"
+        },
+        
+        {
+            "name": "lorikeet",
+            "spooky": 21,
+            "color": "#ff9ff3"
+        },
+        
+        {
+            "name": "budgie",
+            "spooky": 25,
+            "color": "#ff9ff3"
+        },
+        
+        {
+            "name": "cockatiel",
+            "spooky": 28,
+            "color": "#e5691d"
+        },
+        
+        {
+            "name": "cockatoo",
+            "spooky": 32,
+            "color": "#f1c40f"
+        },
+        
+        {
+            "name": "owl",
+            "spooky": 35,
+            "color": "#e5691d"
+        },
+        
+        {
+            "name": "crow",
+            "spooky": 40,
+            "color": "#162232"
+        },
+        
+        {
+            "name": "dove",
+            "spooky": 42,
+            "color": "#c8d6e5"
+        },
+        
+        {
+            "name": "duck",
+            "spooky": 50,
+            "color": "#27a360"
+        },
+        
+        {
+            "name": "chicken",
+            "spooky": 55,
+            "color": "#db091f"
+        },
+        
+        {
+            "name": "rooster",
+            "spooky": 58,
+            "color": "#e5691d"
+        },
+        
+        {
+            "name": "eagle",
+            "spooky": 60,
+            "color": "#002868"
+        },
+        
+        {
+            "name": "vulture",
+            "spooky": 64,
+            "color": "#c8d6e5"
+        },
+        
+        {
+            "name": "cassowary",
+            "spooky": 65,
+            "color": "#00a8ff"
+        },
+        
+        {
+            "name": "pigeon",
+            "spooky": 75,
+            "color": "#c8d6e5"
+        },
+        
+        {
+            "name": "seagull",
+            "spooky": 85,
+            "color": "#00a8ff"
+        },
+        
+        {
+            "name": "pelican",
+            "spooky": 90,
+            "color": "#e74c93"
+        },
+        
+        {
+            "name": "magpie",
+            "spooky": 100,
+            "color": "#162232"
+        },
+        
+        {
+            "name": "swan",
+            "spooky": 105,
+            "color": "#00a8ff"
+        },
+        
+        {
             "name": "goose",
-            "spooky": 10,
+            "spooky": 125,
             "color": "#c8d6e5"
         }
     ]
