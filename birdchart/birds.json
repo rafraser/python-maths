@@ -1,0 +1,15 @@
+{
+    "birds": [
+        {
+            "name": "flamingo",
+            "spooky": 1,
+            "color": "#ff9ff3"
+        },
+        
+        {
+            "name": "goose",
+            "spooky": 10,
+            "color": "#c8d6e5"
+        }
+    ]
+}
