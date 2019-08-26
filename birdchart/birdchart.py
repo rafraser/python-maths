@@ -4,9 +4,18 @@ import matplotlib.pyplot as plt
 import matplotlib.image as mpimage
 import matplotlib.offsetbox as mpoffsetbox
 
+# Function to sort the data
+def sortData(x):
+    return x.get('spooky')
+
 # Start off by loading the data from the birds.json file
 with open('birds.json') as f:
     data = json.load(f)['birds']
+    
+# Sort the birds by spookiness
+# In an ideal world the json should already be sorted
+# This also allows variations on the chart easily I guess
+data.sort(key=sortData)
     
 # Extract the columns from the dictionaries
 # This has 0 error checking because I'm a terrible person
