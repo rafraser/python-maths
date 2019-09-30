@@ -110,13 +110,20 @@ class Mandelbrot:
     """
     def render(self, path, save=True):
         canvas = Image.new('RGBA', (self.resolution, self.resolution))
-        for xx in range(self.resolution):
-            for yy in range(self.resolution):
+        pixels = []
+        
+        # Perform the iteration for each pixel in the image
+        for yy in range(self.resolution):
+            for xx in range(self.resolution):
                 c = self.translate_position(xx, yy)
                 i = self.iterate(c)
                 color = self.get_color(i)
-                canvas.putpixel((xx, yy), color)
+                pixels.append(color)
         
+        # Write the pixels to the image
+        canvas.putdata(pixels)
+        
+        # Save (optional) and return the image
         if save:
             canvas.save(path)
         return canvas
