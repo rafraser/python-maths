@@ -219,6 +219,21 @@ class Julia(Mandelbrot):
         
         return iterations
         
+class Mandelbar(Mandelbrot):
+    def iterate(self, c):
+        z = c
+        p = self.power
+        iterations = 0
+        while iterations < self.quality:
+            # Abort the loop if the point has 'escaped'
+            if abs(z.real) > 2 or abs(z.imag) > 2:
+                break
+            z = (z.conjugate() ** p) + c
+            
+            iterations += 1
+        
+        return iterations
+        
 if __name__ == "__main__":
     Mandelbrot(512).render('output.png')
     Julia(complex(-0.79, 0.15), 512).render('julia.png')
