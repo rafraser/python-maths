@@ -49,8 +49,14 @@
         },
         
         {
-            "name": "hummingbird",
+            "name": "woodpecker",
             "spooky": 13,
+            "color": "#db091f"
+        },
+        
+        {
+            "name": "hummingbird",
+            "spooky": 14,
             "color": "#27a360"
         },
         
@@ -63,7 +69,7 @@
         {
             "name": "emu",
             "spooky": 16,
-            "color": "#ff9ff3"
+            "color": "#00a8ff"
         },
         
         {
@@ -79,21 +85,33 @@
         },
         
         {
+            "name": "miner",
+            "spooky": 22,
+            "color": "#f1c40f"
+        },
+        
+        {
             "name": "lorikeet",
-            "spooky": 21,
-            "color": "#ff9ff3"
+            "spooky": 23,
+            "color": "#5f27cd"
         },
         
         {
             "name": "budgie",
             "spooky": 25,
-            "color": "#ff9ff3"
+            "color": "#00a8ff"
         },
-        
+
         {
             "name": "cockatiel",
             "spooky": 28,
             "color": "#e5691d"
+        },
+        
+        {
+            "name": "swamphen",
+            "spooky": 31,
+            "color": "#5f27cd"
         },
         
         {
