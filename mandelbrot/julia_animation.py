@@ -1,17 +1,18 @@
 from PIL import Image
 from mandelbrot import Julia
+import math
 
-y_pos = 0.15
-x_start = -1.75
-x_end = 1.5
-frames = 120
+radius = 0.8
+frames = 500
 resolution = 512
 
-step = (x_end - x_start)/frames
+step = (2 * math.pi)/frames
 gif = []
 for i in range(frames):
+    ang = step*i
     print('Rendering frame ', i)
-    x_pos = x_start + step*i
+    x_pos = radius * math.cos(ang)
+    y_pos = radius * math.sin(ang)
     j = Julia(complex(x_pos, y_pos), resolution)
     gif.append(j.render(None, False))
 
