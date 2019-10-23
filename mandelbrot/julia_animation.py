@@ -16,4 +16,4 @@ for i in range(frames):
     gif.append(j.render(None, False))
 
 # Save the gif
-gif[0].save('julia.gif', format='GIF', append_images=gif[1:], save_all=True, duration=1/50, loop=0)
+gif[0].save('julia.gif', format='GIF', append_images=gif[1:], save_all=True, duration=20, loop=0)
