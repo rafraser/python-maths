@@ -28,8 +28,10 @@ fig, ax = plt.subplots()
 ax.bar(bird_names, bird_spooky, color=bird_colors)
 
 # Remove unneeded axis properties
-plt.subplots_adjust(left=0, right=1, top=1, bottom=0.1)
-ax.get_xaxis().set_ticks([])
+plt.subplots_adjust(left=0, right=1, top=1, bottom=0.225)
+
+ax.set_xticklabels(bird_names, rotation="vertical", fontfamily="Bebas Kai", fontsize=18, y=-0.0655)
+#ax.get_xaxis().set_ticks([])
 
 # Add images to the tick labels
 for i in range(len(data)):
@@ -48,4 +50,3 @@ for i in range(len(data)):
 # Adjust the figure resolution so the output is a 16:9 1080p image
 fig.set_size_inches((20, 9), forward=False)
 fig.savefig('output.png', dpi=120)
-plt.show()
