@@ -46,6 +46,6 @@ for i in range(len(data)):
     ax.add_artist(annotate)
 
 # Adjust the figure resolution so the output is a 16:9 1080p image
-fig.set_size_inches((16, 9), forward=False)
+fig.set_size_inches((20, 9), forward=False)
 fig.savefig('output.png', dpi=120)
 plt.show()
